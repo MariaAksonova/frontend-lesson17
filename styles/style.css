@@ -35,7 +35,7 @@
     color: #ffc155; }
 
 .welcome {
-  background-color: #709dca;
+  background: linear-gradient(#709dca 89%, transparent 11%);
   text-align: center;
   color: #fff; }
 
@@ -60,10 +60,12 @@ section {
 
 .section-header h1 {
   font-size: 35px;
-  font-family: "GothamBlackRegular", sans-serif; }
+  font-family: "GothamBlackRegular", sans-serif;
+  text-transform: uppercase; }
 .section-header h2 {
   font-size: 30px;
-  font-family: "GothamBlackRegular", sans-serif; }
+  font-family: "GothamBlackRegular", sans-serif;
+  text-transform: uppercase; }
 .section-header p {
   font-size: 16px;
   font-family: "OpenSansRegular", sans-serif; }

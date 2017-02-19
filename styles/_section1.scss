@@ -1,7 +1,7 @@
 @import "variables";
 
 .welcome {
-  background-color: $blue-color;
+  background: linear-gradient($blue-color 89%, transparent 11%);
   text-align: center;
   color: #fff;
 }
