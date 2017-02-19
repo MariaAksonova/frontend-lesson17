@@ -68,6 +68,18 @@ section {
   font-size: 16px;
   font-family: "OpenSansRegular", sans-serif; }
 
+.input-name {
+  background: url("../images/name.png") no-repeat 5%;
+  background-color: #fff; }
+
+.input-email {
+  background: url("../images/email.png") no-repeat 5%;
+  background-color: #fff; }
+
+.input-number {
+  background: url("../images/phone.png") no-repeat 5%;
+  background-color: #fff; }
+
 input {
   border: none;
   border-radius: 2px;
@@ -76,10 +88,25 @@ input {
   font-family: "OpenSansRegular", sans-serif;
   font-size: 13px;
   color: #a9a9a9;
-  padding-left: 40px; }
+  padding-left: 40px;
+  margin: 0 4px; }
 
 form {
   margin-top: 28px;
   margin-bottom: 60px; }
+
+.submit-btn {
+  background-color: #ffbb42;
+  padding: 0 42px;
+  margin: 0 4px; }
+
+button {
+  font-size: 14px;
+  font-family: "LatoRegular", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  height: 46px; }
 
 /*# sourceMappingURL=style.css.map */
