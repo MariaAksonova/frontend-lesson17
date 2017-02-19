@@ -1,5 +1,7 @@
+@import "variables";
+
 .main-header {
-  padding: 22px 0;
+  padding: 30px 0;
 }
 
 .main-header>.container {
@@ -10,8 +12,8 @@
 
 .main-header {
   .nav-pills .nav-link.active {
-    color: $grey-color;
-    background-color: $yellow-color;
+    color: #fff;
+    background-color: $orange-color;
   }
 
   .nav-pills .nav-link {
@@ -20,13 +22,12 @@
 
   .nav-link {
     display: block;
-    padding: 1.5em .7em;
+    padding: 10px 20px;;
     color: $grey-color;
     font-size: 16px;
-    margin-left: 28px;
 
     &:hover {
-      color: $light-grey-color
+      color: $light-orange-color;
     }
   }
 }
