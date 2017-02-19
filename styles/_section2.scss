@@ -1,1 +1,27 @@
 @import "variables";
+
+.services {
+  text-align: center;
+
+  .section-header {
+    color: $dark-grey-color;
+  }
+
+  .services-list {
+    li {
+
+      padding-left: 100px;
+      width: 40%;
+
+      &:nth-child(1) {
+        background: url("../images/icon1.png");
+      }
+    }
+
+    h4 {
+      font-family: $font-bold;
+      font-size: 16px;
+      text-transform: uppercase;
+    }
+  }
+}

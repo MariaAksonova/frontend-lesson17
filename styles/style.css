@@ -30,7 +30,8 @@
   display: block;
   padding: 10px 20px;
   color: #868686;
-  font-size: 16px; }
+  font-size: 16px;
+  text-transform: uppercase; }
   .main-header .nav-link:hover {
     color: #ffc155; }
 
@@ -54,6 +55,20 @@
 
 .carousel-indicators .active {
   border: 3px solid #709dca; }
+
+.services {
+  text-align: center; }
+  .services .section-header {
+    color: #394b50; }
+  .services .services-list li {
+    padding-left: 100px;
+    width: 40%; }
+    .services .services-list li:nth-child(1) {
+      background: url("../images/icon1.png"); }
+  .services .services-list h4 {
+    font-family: "LatoBold", sans-serif;
+    font-size: 16px;
+    text-transform: uppercase; }
 
 section {
   padding-top: 100px; }
@@ -110,5 +125,11 @@ button {
   border: none;
   border-radius: 2px;
   height: 46px; }
+
+li {
+  list-style: none; }
+
+ul {
+  padding-left: 0; }
 
 /*# sourceMappingURL=style.css.map */
