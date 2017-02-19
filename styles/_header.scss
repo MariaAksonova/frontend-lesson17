@@ -1,0 +1,32 @@
+.main-header {
+  padding: 22px 0;
+}
+
+.main-header>.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-header {
+  .nav-pills .nav-link.active {
+    color: $grey-color;
+    background-color: $yellow-color;
+  }
+
+  .nav-pills .nav-link {
+    border-radius: 0;
+  }
+
+  .nav-link {
+    display: block;
+    padding: 1.5em .7em;
+    color: $grey-color;
+    font-size: 16px;
+    margin-left: 28px;
+
+    &:hover {
+      color: $light-grey-color
+    }
+  }
+}

@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "CenturyGothic";
+  src: url("../fonts/Century-Gothic.ttf") format("truetype"); }
+@font-face {
+  font-family: "OpenSansRegular";
+  src: url("../fonts/OpenSans-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: "LatoBold";
+  src: url("../fonts/Lato-Bold.ttf") format("truetype"); }
+@font-face {
+  font-family: "LatoLight";
+  src: url("../fonts/Lato-Light.ttf") format("truetype"); }
+@font-face {
+  font-family: "LatoRegular";
+  src: url("../fonts/Lato-Regular.ttf") format("truetype"); }
+.main-header {
+  padding: 22px 0; }
+
+.main-header > .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.main-header .nav-pills .nav-link.active {
+  color: #414146;
+  background-color: #ffea00; }
+.main-header .nav-pills .nav-link {
+  border-radius: 0; }
+.main-header .nav-link {
+  display: block;
+  padding: 1.5em .7em;
+  color: #414146;
+  font-size: 16px;
+  margin-left: 28px; }
+  .main-header .nav-link:hover {
+    color: #cacaca; }
+
+/*# sourceMappingURL=style.css.map */
