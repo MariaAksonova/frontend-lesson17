@@ -9,3 +9,41 @@
 @import "section6";
 @import "section7";
 @import "footer";
+
+section {
+  padding-top: 100px;
+}
+
+.section-header {
+
+  h1 {
+    font-size: 35px;
+    font-family: $font-gotham;
+  }
+
+  h2 {
+    font-size: 30px;
+    font-family: $font-gotham;
+  }
+
+  p {
+    font-size: 16px;
+    font-family: $font-main;
+  }
+}
+
+input {
+  border: none;
+  border-radius: 2px;
+  height: 46px;
+  width: 280px;
+  font-family: $font-main;
+  font-size: 13px;
+  color: #a9a9a9;
+  padding-left: 40px;
+}
+
+form {
+  margin-top: 28px;
+  margin-bottom: 60px;
+}

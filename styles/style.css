@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "CenturyGothic";
-  src: url("../fonts/Century-Gothic.ttf") format("truetype"); }
+  font-family: "GothamBlackRegular";
+  src: url("../fonts/Gotham Black Regular.ttf") format("truetype"); }
 @font-face {
   font-family: "OpenSansRegular";
   src: url("../fonts/OpenSans-Regular.ttf") format("truetype"); }
@@ -33,5 +33,53 @@
   font-size: 16px; }
   .main-header .nav-link:hover {
     color: #ffc155; }
+
+.welcome {
+  background-color: #709dca;
+  text-align: center;
+  color: #fff; }
+
+.carousel-item img {
+  margin: 0 auto; }
+
+.carousel-indicators {
+  bottom: -46px; }
+  .carousel-indicators li {
+    max-width: 12px;
+    height: 12px;
+    margin-right: 2px;
+    margin-left: 2px;
+    border-radius: 50%;
+    border: 3px solid #dedfe0; }
+
+.carousel-indicators .active {
+  border: 3px solid #709dca; }
+
+section {
+  padding-top: 100px; }
+
+.section-header h1 {
+  font-size: 35px;
+  font-family: "GothamBlackRegular", sans-serif; }
+.section-header h2 {
+  font-size: 30px;
+  font-family: "GothamBlackRegular", sans-serif; }
+.section-header p {
+  font-size: 16px;
+  font-family: "OpenSansRegular", sans-serif; }
+
+input {
+  border: none;
+  border-radius: 2px;
+  height: 46px;
+  width: 280px;
+  font-family: "OpenSansRegular", sans-serif;
+  font-size: 13px;
+  color: #a9a9a9;
+  padding-left: 40px; }
+
+form {
+  margin-top: 28px;
+  margin-bottom: 60px; }
 
 /*# sourceMappingURL=style.css.map */
