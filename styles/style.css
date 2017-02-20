@@ -60,15 +60,40 @@
   text-align: center; }
   .services .section-header {
     color: #394b50; }
-  .services .services-list li {
-    padding-left: 100px;
-    width: 40%; }
-    .services .services-list li:nth-child(1) {
-      background: url("../images/icon1.png"); }
-  .services .services-list h4 {
-    font-family: "LatoBold", sans-serif;
-    font-size: 16px;
-    text-transform: uppercase; }
+  .services .services-list {
+    margin-top: 80px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    .services .services-list li {
+      padding-left: 80px;
+      width: 40%;
+      text-align: left;
+      margin-bottom: 70px; }
+      .services .services-list li:nth-child(1) {
+        background: url(../images/icon1.png) no-repeat; }
+      .services .services-list li:nth-child(2) {
+        background: url(../images/icon2.png) no-repeat; }
+      .services .services-list li:nth-child(3) {
+        background: url(../images/icon3.png) no-repeat; }
+      .services .services-list li:nth-child(4) {
+        background: url(../images/icon4.png) no-repeat; }
+      .services .services-list li:nth-child(5) {
+        background: url(../images/icon5.png) no-repeat; }
+      .services .services-list li:nth-child(6) {
+        background: url(../images/icon6.png) 2% 0 no-repeat; }
+    .services .services-list h4 {
+      font-family: "LatoBold", sans-serif;
+      font-size: 16px;
+      text-transform: uppercase;
+      color: #394b50;
+      margin-bottom: 20px; }
+    .services .services-list p {
+      font-family: "OpenSansRegular", sans-serif;
+      font-size: 13px;
+      color: #7b7b7b;
+      line-height: 22px; }
 
 section {
   padding-top: 100px; }
