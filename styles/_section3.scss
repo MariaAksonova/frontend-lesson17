@@ -2,6 +2,7 @@
 
 .about-us {
   display: flex;
+  padding-top: 0;
 
   div {
     display: inline-block;
@@ -15,10 +16,12 @@
   .text-area {
     background-color: $light-orange-color;
     color: #fff;
-    padding-left: 80px;
+    padding: 152px 0 152px 80px;
 
     p {
       width: 80%;
+      font-size: 13px;
+      line-height: 24px;
     }
   }
 

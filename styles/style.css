@@ -1,82 +1,200 @@
-/*
-Error: Invalid CSS after "    p": expected "{", was "}"
-        on line 21 of _section3.scss
-        from line 6 of style.scss
+@font-face {
+  font-family: "GothamBlackRegular";
+  src: url("../fonts/Gotham Black Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: "OpenSansRegular";
+  src: url("../fonts/OpenSans-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: "LatoBold";
+  src: url("../fonts/Lato-Bold.ttf") format("truetype"); }
+@font-face {
+  font-family: "LatoLight";
+  src: url("../fonts/Lato-Light.ttf") format("truetype"); }
+@font-face {
+  font-family: "LatoRegular";
+  src: url("../fonts/Lato-Regular.ttf") format("truetype"); }
+.main-header {
+  padding: 30px 0; }
 
-16:     background-color: $light-orange-color;
-17:     color: #fff;
-18:     padding-left: 80px;
-19: 
-20:     p
-21:   }
-22: 
-23:   .main-btn {
-24:     background: transparent;
-25:     border: 1px solid #e7ad48;
-26:     padding: 0 30px;
+.main-header > .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
 
-Backtrace:
-_section3.scss:21
-style.scss:6
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1207:in `expected'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1137:in `expected'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1132:in `tok!'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:665:in `block'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:685:in `block_child'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:677:in `block_contents'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:666:in `block'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:685:in `block_child'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:677:in `block_contents'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:666:in `block'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:658:in `ruleset'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:684:in `block_child'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:677:in `block_contents'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:125:in `stylesheet'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:41:in `parse'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:406:in `_to_tree'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:312:in `to_tree'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:326:in `block in visit_import'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:88:in `block in with_import'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:88:in `with_import'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:325:in `visit_import'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:159:in `visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:8:in `visit'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin.rb:82:in `update_stylesheets'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:51:in `process_result'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/exec/base.rb:52:in `parse'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/exec/base.rb:19:in `parse!'
-C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/bin/scss:13:in `<top (required)>'
-C:/Ruby23-x64/bin/scss:22:in `load'
-C:/Ruby23-x64/bin/scss:22:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"    p\": expected \"{\", was \"}\"\A         on line 21 of _section3.scss\A         from line 6 of style.scss\A \A 16:     background-color: $light-orange-color;\A 17:     color: #fff;\A 18:     padding-left: 80px;\A 19: \A 20:     p\A 21:   }\A 22: \A 23:   .main-btn {\A 24:     background: transparent;\A 25:     border: 1px solid #e7ad48;\A 26:     padding: 0 30px;"; }
+.main-header .nav-pills .nav-link.active {
+  color: #fff;
+  background-color: #ffbb42; }
+.main-header .nav-pills .nav-link {
+  border-radius: 0; }
+.main-header .nav-link {
+  display: block;
+  padding: 10px 20px;
+  color: #868686;
+  font-size: 16px;
+  text-transform: uppercase; }
+  .main-header .nav-link:hover {
+    color: #ffc155; }
+
+.welcome {
+  background: linear-gradient(#709dca 89%, transparent 11%);
+  text-align: center;
+  color: #fff; }
+
+.carousel-item img {
+  margin: 0 auto; }
+
+.carousel-indicators {
+  bottom: -46px; }
+  .carousel-indicators li {
+    max-width: 12px;
+    height: 12px;
+    margin-right: 2px;
+    margin-left: 2px;
+    border-radius: 50%;
+    border: 3px solid #dedfe0; }
+
+.carousel-indicators .active {
+  border: 3px solid #709dca; }
+
+.services {
+  text-align: center; }
+  .services .section-header {
+    color: #394b50; }
+  .services .services-list {
+    margin-top: 80px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    .services .services-list li {
+      padding-left: 80px;
+      width: 40%;
+      text-align: left;
+      margin-bottom: 70px; }
+      .services .services-list li:nth-child(1) {
+        background: url(../images/icon1.png) no-repeat; }
+      .services .services-list li:nth-child(2) {
+        background: url(../images/icon2.png) no-repeat; }
+      .services .services-list li:nth-child(3) {
+        background: url(../images/icon3.png) no-repeat; }
+      .services .services-list li:nth-child(4) {
+        background: url(../images/icon4.png) no-repeat; }
+      .services .services-list li:nth-child(5) {
+        background: url(../images/icon5.png) no-repeat; }
+      .services .services-list li:nth-child(6) {
+        background: url(../images/icon6.png) 2% 0 no-repeat; }
+    .services .services-list h4 {
+      font-family: "LatoBold", sans-serif;
+      font-size: 16px;
+      text-transform: uppercase;
+      color: #394b50;
+      margin-bottom: 20px; }
+    .services .services-list p {
+      font-family: "OpenSansRegular", sans-serif;
+      font-size: 13px;
+      color: #7b7b7b;
+      line-height: 22px; }
+
+.about-us {
+  display: flex;
+  padding-top: 0; }
+  .about-us div {
+    display: inline-block;
+    width: 50%; }
+  .about-us .bg-area {
+    background: url("../images/bg.png") no-repeat; }
+  .about-us .text-area {
+    background-color: #ffc155;
+    color: #fff;
+    padding: 152px 0 152px 80px; }
+    .about-us .text-area p {
+      width: 80%;
+      font-size: 13px;
+      line-height: 24px; }
+  .about-us .main-btn {
+    background: transparent;
+    border: 1px solid #e7ad48;
+    padding: 0 30px; }
+
+.your-price {
+  background-color: #e7edf3;
+  text-align: center;
+  padding-bottom: 160px; }
+  .your-price .section-header p {
+    color: #75888d; }
+  .your-price .price-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 46px; }
+    .your-price .price-list li {
+      width: 390px;
+      height: 440px;
+      background-color: #fff; }
+      .your-price .price-list li:nth-child(2) {
+        height: 500px;
+        background-color: #709dca; }
+
+section {
+  padding-top: 100px; }
+
+.section-header h1 {
+  font-size: 35px;
+  font-family: "GothamBlackRegular", sans-serif;
+  text-transform: uppercase; }
+.section-header h2 {
+  font-size: 30px;
+  font-family: "GothamBlackRegular", sans-serif;
+  text-transform: uppercase; }
+.section-header p {
+  font-size: 16px;
+  font-family: "OpenSansRegular", sans-serif; }
+
+.input-name {
+  background: url("../images/name.png") no-repeat 5%;
+  background-color: #fff; }
+
+.input-email {
+  background: url("../images/email.png") no-repeat 5%;
+  background-color: #fff; }
+
+.input-number {
+  background: url("../images/phone.png") no-repeat 5%;
+  background-color: #fff; }
+
+input {
+  border: none;
+  border-radius: 2px;
+  height: 46px;
+  width: 280px;
+  font-family: "OpenSansRegular", sans-serif;
+  font-size: 13px;
+  color: #a9a9a9;
+  padding-left: 40px;
+  margin: 0 4px; }
+
+form {
+  margin-top: 28px;
+  margin-bottom: 60px; }
+
+.submit-btn {
+  background-color: #ffbb42;
+  padding: 0 42px;
+  margin: 0 4px; }
+
+button {
+  font-size: 14px;
+  font-family: "LatoRegular", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  height: 46px; }
+
+li {
+  list-style: none; }
+
+ul {
+  padding-left: 0; }
+
+/*# sourceMappingURL=style.css.map */
