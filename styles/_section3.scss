@@ -1,1 +1,30 @@
 @import "variables";
+
+.about-us {
+  display: flex;
+
+  div {
+    display: inline-block;
+    width: 50%;
+  }
+
+  .bg-area {
+    background: url("../images/bg.png") no-repeat;
+  }
+
+  .text-area {
+    background-color: $light-orange-color;
+    color: #fff;
+    padding-left: 80px;
+
+    p {
+      width: 80%;
+    }
+  }
+
+  .main-btn {
+    background: transparent;
+    border: 1px solid #e7ad48;
+    padding: 0 30px;
+  }
+}
