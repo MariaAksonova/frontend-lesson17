@@ -173,9 +173,72 @@
         .your-price .price-list li:nth-child(2) p, .your-price .price-list li:nth-child(2) span, .your-price .price-list li:nth-child(2) .price-number {
           color: #fff; }
       .your-price .price-list li .main-btn {
-        background: #ffc155;
+        background: #ffbb42;
         padding-left: 18px;
         padding-right: 18px; }
+
+.how-it-works {
+  padding-bottom: 160px;
+  text-align: center; }
+  .how-it-works .section-header p {
+    color: #75888d; }
+  .how-it-works .steps-list {
+    margin-top: 110px;
+    display: flex;
+    justify-content: space-between; }
+    .how-it-works .steps-list li {
+      width: 20%;
+      padding-top: 160px; }
+      .how-it-works .steps-list li:nth-child(1) {
+        background: url("../images/step1.png") 50% 0 no-repeat;
+        position: relative; }
+        .how-it-works .steps-list li:nth-child(1):after {
+          background: url("../images/arrow.png") no-repeat;
+          content: '';
+          height: 34px;
+          width: 129px;
+          position: absolute;
+          top: -14px;
+          right: -108px; }
+      .how-it-works .steps-list li:nth-child(2) {
+        background: url("../images/step2.png") 50% 0 no-repeat;
+        position: relative; }
+        .how-it-works .steps-list li:nth-child(2):after {
+          background: url("../images/arrow1.png") no-repeat;
+          content: '';
+          height: 34px;
+          width: 129px;
+          position: absolute;
+          top: 74px;
+          right: -108px; }
+      .how-it-works .steps-list li:nth-child(3) {
+        background: url("../images/step3.png") 50% 0 no-repeat;
+        position: relative; }
+        .how-it-works .steps-list li:nth-child(3):after {
+          background: url("../images/arrow.png") no-repeat;
+          content: '';
+          height: 34px;
+          width: 129px;
+          position: absolute;
+          top: -14px;
+          right: -108px; }
+      .how-it-works .steps-list li:nth-child(4) {
+        background: url("../images/step4.png") 50% 0 no-repeat; }
+      .how-it-works .steps-list li h3 {
+        font-family: "LatoBold", sans-serif;
+        font-size: 20px;
+        color: #394b50;
+        margin-bottom: 26px;
+        text-transform: uppercase; }
+      .how-it-works .steps-list li p {
+        font-size: 13px;
+        color: #7b7b7b;
+        line-height: 22px; }
+  .how-it-works .main-btn {
+    background: #ffbb42;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-top: 90px; }
 
 section {
   padding-top: 100px; }
