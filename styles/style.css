@@ -243,9 +243,55 @@
 
 .clients {
   text-align: center;
-  background-color: #ffc155; }
+  background-color: #ffc155;
+  padding-bottom: 160px; }
   .clients .section-header {
     color: #fff; }
+  .clients .clients-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 56px; }
+    .clients .clients-list li {
+      width: 47%;
+      height: 240px;
+      background: #fff;
+      margin: 10px 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 44px 30px; }
+      .clients .clients-list li div {
+        text-align: left;
+        width: 66%; }
+        .clients .clients-list li div cite {
+          font-size: 13px;
+          color: #7b7b7b;
+          line-height: 22px;
+          position: relative; }
+          .clients .clients-list li div cite:before {
+            content: '';
+            background: url("../images/cite1.png");
+            height: 9px;
+            width: 11px;
+            position: absolute;
+            left: -18px; }
+          .clients .clients-list li div cite:after {
+            content: '';
+            background: url("../images/cite2.png");
+            height: 9px;
+            width: 11px;
+            position: absolute;
+            bottom: -2px;
+            right: -20px; }
+        .clients .clients-list li div p {
+          font-size: 14px;
+          color: #99a9ae;
+          font-family: "LatoRegular", sans-serif;
+          margin-top: 22px;
+          text-transform: uppercase; }
+        .clients .clients-list li div .orange {
+          color: #f6772c; }
 
 .newsletter {
   text-align: center; }
@@ -289,7 +335,7 @@
       left: calc(50% - 25px); }
 
 section {
-  padding-top: 100px; }
+  padding-top: 140px; }
 
 .section-header h1 {
   font-size: 35px;
