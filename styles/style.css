@@ -176,7 +176,8 @@
       .your-price .price-list li .main-btn {
         background: #ffbb42;
         padding-left: 18px;
-        padding-right: 18px; }
+        padding-right: 18px;
+        margin-top: 12px; }
 
 .how-it-works {
   padding-bottom: 160px;
@@ -333,6 +334,10 @@
       position: absolute;
       bottom: 26%;
       left: calc(50% - 25px); }
+
+footer {
+  margin-top: 60px;
+  text-align: center; }
 
 section {
   padding-top: 140px; }
