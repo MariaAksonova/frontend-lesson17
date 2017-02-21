@@ -102,7 +102,8 @@
     display: inline-block;
     width: 50%; }
   .about-us .bg-area {
-    background: url("../images/bg.png") no-repeat; }
+    background: url("../images/bg.png") no-repeat;
+    background-size: cover; }
   .about-us .text-area {
     background-color: #ffc155;
     color: #fff;
@@ -239,6 +240,53 @@
     padding-left: 24px;
     padding-right: 24px;
     margin-top: 90px; }
+
+.clients {
+  text-align: center;
+  background-color: #ffc155; }
+  .clients .section-header {
+    color: #fff; }
+
+.newsletter {
+  text-align: center; }
+  .newsletter input {
+    border: 2px solid #e2e9f0; }
+  .newsletter .input-email {
+    width: 380px; }
+  .newsletter .map {
+    background: url("../images/bg-address.png") no-repeat;
+    height: 550px;
+    position: relative;
+    margin-bottom: 46px; }
+    .newsletter .map .gray-shape {
+      position: absolute;
+      left: calc(50% - 141px);
+      top: 10%;
+      background: url("../images/gray-shape.png") no-repeat;
+      height: 295px;
+      width: 282px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .newsletter .map .gray-shape h5 {
+        font-size: 15px;
+        font-family: "LatoBold", sans-serif;
+        color: #fff;
+        text-transform: uppercase; }
+      .newsletter .map .gray-shape p {
+        font-size: 13px;
+        font-family: "OpenSansRegular", sans-serif;
+        color: #aeb7ba;
+        margin-bottom: 8px; }
+      .newsletter .map .gray-shape .orange-text {
+        font-size: 13px;
+        font-family: "OpenSansRegular", sans-serif;
+        color: #ffbb42; }
+    .newsletter .map .logo {
+      position: absolute;
+      bottom: 26%;
+      left: calc(50% - 25px); }
 
 section {
   padding-top: 100px; }

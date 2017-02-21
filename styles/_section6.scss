@@ -1,1 +1,11 @@
 @import "variables";
+
+.clients {
+  text-align: center;
+  background-color: $light-orange-color;
+
+  .section-header {
+    color: #fff;
+  }
+
+}
