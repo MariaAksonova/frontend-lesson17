@@ -17,7 +17,14 @@ $(function (){
             }
         });
         if (canSend) {
-
+            $.ajax({
+                url: '/user-page',
+                method: 'post',
+                data: JSON.stringify(data),
+                headers: {
+                    'content-type': 'application/json'
+                }
+            })
         }
     });
 
