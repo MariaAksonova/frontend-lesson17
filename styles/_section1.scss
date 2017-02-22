@@ -27,4 +27,8 @@
   border: 3px solid $blue-color;
 }
 
-@media (max-width: 738px) {}
+@media (max-width: 738px) {
+  .carousel-item img{
+    height: 200px;
+  }
+}

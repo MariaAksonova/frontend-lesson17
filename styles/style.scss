@@ -93,3 +93,9 @@ ul {
 .red-frame {
   border: 1px solid red!important;
 }
+
+@media (max-width: 738px) {
+  section {
+    padding-top: 60px;
+  }
+}

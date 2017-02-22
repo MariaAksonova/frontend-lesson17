@@ -79,6 +79,9 @@
 .carousel-indicators .active {
   border: 3px solid #709dca; }
 
+@media (max-width: 738px) {
+  .carousel-item img {
+    height: 200px; } }
 .services {
   text-align: center; }
   .services .section-header {
@@ -91,7 +94,7 @@
     justify-content: space-around; }
     .services .services-list li {
       padding-left: 80px;
-      width: 40%;
+      width: 510px;
       text-align: left;
       margin-bottom: 70px; }
       .services .services-list li:nth-child(1) {
@@ -140,6 +143,15 @@
     border: 1px solid #e7ad48;
     padding: 0 30px; }
 
+@media (max-width: 738px) {
+  .about-us {
+    flex-direction: column; }
+    .about-us .bg-area {
+      height: 300px; }
+    .about-us .text-area {
+      padding: 60px 20px; }
+    .about-us div {
+      width: 100%; } }
 .your-price {
   background-color: #e7edf3;
   text-align: center;
@@ -202,6 +214,13 @@
         padding-right: 18px;
         margin-top: 12px; }
 
+@media (max-width: 738px) {
+  .your-price {
+    padding-bottom: 60px; }
+    .your-price .price-list {
+      flex-direction: column; }
+      .your-price .price-list li {
+        width: 340px; } }
 .how-it-works {
   padding-bottom: 160px;
   text-align: center; }
@@ -210,9 +229,9 @@
   .how-it-works .steps-list {
     margin-top: 110px;
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-around; }
     .how-it-works .steps-list li {
-      width: 20%;
+      width: 220px;
       padding-top: 160px; }
       .how-it-works .steps-list li:nth-child(1) {
         background: url("../images/step1.png") 50% 0 no-repeat;
@@ -265,6 +284,21 @@
     padding-right: 24px;
     margin-top: 90px; }
 
+@media (max-width: 738px) {
+  .how-it-works {
+    padding-bottom: 60px; }
+    .how-it-works .steps-list {
+      flex-direction: column;
+      align-items: center; }
+      .how-it-works .steps-list li {
+        padding-top: 80px;
+        margin-bottom: 30px; }
+        .how-it-works .steps-list li:nth-child(1):after {
+          display: none; }
+        .how-it-works .steps-list li:nth-child(2):after {
+          display: none; }
+        .how-it-works .steps-list li:nth-child(3):after {
+          display: none; } }
 .clients {
   text-align: center;
   background-color: #ffc155;
@@ -277,7 +311,7 @@
     justify-content: center;
     margin-top: 56px; }
     .clients .clients-list li {
-      width: 47%;
+      width: 560px;
       height: 240px;
       background: #fff;
       margin: 10px 15px;
@@ -317,6 +351,32 @@
         .clients .clients-list li div .orange {
           color: #f6772c; }
 
+@media (max-width: 738px) {
+  .clients {
+    padding-bottom: 60px; }
+    .clients .clients-list {
+      margin-top: 40px; }
+      .clients .clients-list li {
+        width: 560px;
+        height: 260px;
+        margin: 10px;
+        justify-content: space-between;
+        padding: 10px; }
+        .clients .clients-list li div {
+          width: 57%; }
+          .clients .clients-list li div cite {
+            font-size: 11px;
+            line-height: 0; }
+            .clients .clients-list li div cite:before {
+              content: '';
+              background: url("../images/cite1.png");
+              height: 9px;
+              width: 11px;
+              position: absolute;
+              left: -18px; }
+          .clients .clients-list li div p {
+            font-size: 12px;
+            margin-top: 12px; } }
 .newsletter {
   text-align: center; }
   .newsletter input {
@@ -358,6 +418,9 @@
       bottom: 26%;
       left: calc(50% - 25px); }
 
+@media (max-width: 738px) {
+  .newsletter .input-email {
+    width: 280px; } }
 footer {
   padding-top: 60px;
   border-top: 1px solid #eee;
@@ -492,5 +555,9 @@ ul {
 
 .red-frame {
   border: 1px solid red !important; }
+
+@media (max-width: 738px) {
+  section {
+    padding-top: 60px; } }
 
 /*# sourceMappingURL=style.css.map */

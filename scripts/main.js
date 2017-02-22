@@ -9,13 +9,16 @@ $(function (){
 
     $('form').on('submit', function(event) {
         var canSend = true;
+        event.preventDefault();
         $(this).find('input').each(function () {
             if (this.value.length < 3) {
                 $(this).addClass('red-frame');
                 canSend = false;
             }
         });
-        if (!canSend) event.preventDefault();
+        if (canSend) {
+
+        }
     });
 
     var flag = true;

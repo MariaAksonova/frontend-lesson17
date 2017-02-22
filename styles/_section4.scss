@@ -91,3 +91,17 @@
     }
   }
 }
+
+@media (max-width: 738px) {
+  .your-price {
+    padding-bottom: 60px;
+
+    .price-list {
+      flex-direction: column;
+
+      li {
+        width: 340px;
+      }
+    }
+  }
+}
