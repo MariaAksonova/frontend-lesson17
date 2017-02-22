@@ -336,7 +336,7 @@
       left: calc(50% - 25px); }
 
 footer {
-  padding: 60px 0;
+  padding-top: 60px;
   border-top: 1px solid #eee;
   display: flex;
   flex-direction: column;
@@ -361,22 +361,31 @@ footer {
     background: url("../images/phone.png") 0 50% no-repeat;
     padding-left: 18px;
     margin-bottom: 26px; }
-  footer .social .tw {
-    background: url("../images/tw.png") no-repeat;
-    height: 15px;
-    width: 16px; }
-  footer .social .fb {
-    background: url("../images/fb.png") no-repeat;
-    height: 18px;
-    width: 10px; }
-  footer .social .go {
-    background: url("../images/g+.png") no-repeat;
-    height: 18px;
-    width: 17px; }
-  footer .social .in {
-    background: url("../images/in.png") no-repeat;
-    height: 16px;
-    width: 16px; }
+  footer .social {
+    margin-bottom: 60px; }
+    footer .social li {
+      display: inline-block;
+      margin: 0 2px; }
+    footer .social .tw {
+      background: url("../images/tw.png") no-repeat;
+      height: 15px;
+      width: 16px;
+      display: inline-block; }
+    footer .social .fb {
+      background: url("../images/fb.png") no-repeat;
+      height: 18px;
+      width: 10px;
+      display: inline-block; }
+    footer .social .go {
+      background: url("../images/g+.png") no-repeat;
+      height: 18px;
+      width: 17px;
+      display: inline-block; }
+    footer .social .in {
+      background: url("../images/in.png") no-repeat;
+      height: 16px;
+      width: 16px;
+      display: inline-block; }
   footer .footer-info {
     background-color: #709dca;
     padding: 20px 0;

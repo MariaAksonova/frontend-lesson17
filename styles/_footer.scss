@@ -1,7 +1,7 @@
 @import "variables";
 
 footer {
-  padding: 60px 0;
+  padding-top: 60px;
   border-top: 1px solid #eee;
   display: flex;
   flex-direction: column;
@@ -38,28 +38,39 @@ footer {
   }
 
   .social {
+    margin-bottom:  60px;
+
+    li {
+      display: inline-block;
+      margin: 0 2px;
+    }
+
     .tw {
       background: url("../images/tw.png") no-repeat;
       height: 15px;
       width: 16px;
+      display: inline-block;
     }
 
     .fb {
       background: url("../images/fb.png") no-repeat;
       height: 18px;
       width: 10px;
+      display: inline-block;
     }
 
     .go {
       background: url("../images/g+.png") no-repeat;
       height: 18px;
       width: 17px;
+      display: inline-block;
     }
 
     .in {
       background: url("../images/in.png") no-repeat;
       height: 16px;
       width: 16px;
+      display: inline-block;
     }
   }
 
