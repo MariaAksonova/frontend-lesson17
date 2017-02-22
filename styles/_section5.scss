@@ -92,18 +92,10 @@
   }
 }
 
-@media (max-width: 738px) {
+@media (max-width: 1000px) {
   .how-it-works {
-    padding-bottom: 60px;
-
     .steps-list {
-      flex-direction: column;
-      align-items: center;
-
       li {
-        padding-top: 80px;
-        margin-bottom: 30px;
-
         &:nth-child(1) {
           &:after {
             display: none;
@@ -121,6 +113,22 @@
             display: none;
           }
         }
+      }
+    }
+  }
+}
+
+@media (max-width: 738px) {
+  .how-it-works {
+    padding-bottom: 60px;
+
+    .steps-list {
+      flex-direction: column;
+      align-items: center;
+
+      li {
+        padding-top: 80px;
+        margin-bottom: 30px;
       }
     }
   }
