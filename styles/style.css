@@ -336,8 +336,59 @@
       left: calc(50% - 25px); }
 
 footer {
-  margin-top: 60px;
-  text-align: center; }
+  padding: 60px 0;
+  border-top: 1px solid #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  footer .footer-menu {
+    margin-bottom: 28px; }
+    footer .footer-menu .nav-pills .nav-link.active {
+      color: #f6772c;
+      background-color: transparent; }
+    footer .footer-menu .nav-link {
+      margin: 0 16px;
+      color: #394b50;
+      font-size: 13px;
+      font-family: "LatoRegular", sans-serif;
+      text-transform: uppercase; }
+      footer .footer-menu .nav-link:hover {
+        color: #ffc155; }
+  footer .phone-number {
+    font-size: 23px;
+    font-family: "LatoRegular", sans-serif;
+    color: #394b50;
+    background: url("../images/phone.png") 0 50% no-repeat;
+    padding-left: 18px;
+    margin-bottom: 26px; }
+  footer .social .tw {
+    background: url("../images/tw.png") no-repeat;
+    height: 15px;
+    width: 16px; }
+  footer .social .fb {
+    background: url("../images/fb.png") no-repeat;
+    height: 18px;
+    width: 10px; }
+  footer .social .go {
+    background: url("../images/g+.png") no-repeat;
+    height: 18px;
+    width: 17px; }
+  footer .social .in {
+    background: url("../images/in.png") no-repeat;
+    height: 16px;
+    width: 16px; }
+  footer .footer-info {
+    background-color: #709dca;
+    padding: 20px 0;
+    width: 100%;
+    text-align: center; }
+    footer .footer-info p {
+      font-size: 13px;
+      font-family: "OpenSansRegular", sans-serif;
+      margin-bottom: 0;
+      color: #fff; }
+      footer .footer-info p a {
+        color: #fff; }
 
 section {
   padding-top: 140px; }
