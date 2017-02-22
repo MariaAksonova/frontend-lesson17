@@ -31,4 +31,38 @@
       color: $light-orange-color;
     }
   }
+
+  .mobile-menu {
+    display: none;
+  }
+}
+
+@media (max-width: 738px) {
+  .main-header {
+
+    .mobile-menu {
+      display: block;
+      background: url("../images/menu.png") 50% no-repeat;
+      width: 23px;
+      height: 25px;
+      cursor: pointer;
+      float: right;
+    }
+    .nav {
+      display: none;
+      position: fixed;
+      top: 80px;
+      right: 0;
+      left: 0;
+      width: 100%;
+      background-color: #fff;
+      z-index: 100;
+
+      li {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 16px;
+      }
+    }
+  }
 }

@@ -92,3 +92,15 @@ footer {
     }
   }
 }
+
+@media (max-width: 738px) {
+  .footer-menu {
+
+    .nav {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
