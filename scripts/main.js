@@ -1,6 +1,6 @@
 $(function (){
-    $('input').on('blur', function () {
-        if (this.value.length < 3) {
+    $('.submit-btn').on('click', function () {
+        if ($('input').value.length < 3) {
             $(this).addClass('red-frame');
         } else {
             $(this).removeClass('red-frame');
