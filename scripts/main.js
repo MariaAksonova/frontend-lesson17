@@ -1,12 +1,4 @@
 $(function (){
-    $('.submit-btn').on('click', function () {
-        if ($('input').value.length < 3) {
-            $(this).addClass('red-frame');
-        } else {
-            $(this).removeClass('red-frame');
-        }
-    });
-
     $('form').on('submit', function(event) {
         var canSend = true;
         event.preventDefault();
@@ -14,6 +6,8 @@ $(function (){
             if (this.value.length < 3) {
                 $(this).addClass('red-frame');
                 canSend = false;
+            } else {
+                $(this).removeClass('red-frame');
             }
         });
         if (canSend) {
