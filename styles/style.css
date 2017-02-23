@@ -312,10 +312,10 @@
     justify-content: center;
     margin-top: 56px; }
     .clients .clients-list li {
-      width: 560px;
+      width: 520px;
       height: 240px;
       background: #fff;
-      margin: 10px 0;
+      margin: 10px 15px;
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
