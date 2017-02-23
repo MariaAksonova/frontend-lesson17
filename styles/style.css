@@ -91,7 +91,7 @@
     margin-bottom: 70px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; }
+    justify-content: space-between; }
     .services .services-list li {
       padding-left: 80px;
       width: 510px;
@@ -229,7 +229,7 @@
   .how-it-works .steps-list {
     margin-top: 110px;
     display: flex;
-    justify-content: space-around; }
+    justify-content: space-between; }
     .how-it-works .steps-list li {
       width: 220px;
       padding-top: 160px; }
@@ -309,13 +309,13 @@
   .clients .clients-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 56px; }
     .clients .clients-list li {
-      width: 520px;
+      width: 530px;
       height: 240px;
       background: #fff;
-      margin: 10px 15px;
+      margin: 10px;
       display: flex;
       justify-content: space-between;
       align-items: flex-start;

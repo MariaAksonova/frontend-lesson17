@@ -12,14 +12,14 @@
   .clients-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;;
     margin-top: 56px;
 
     li {
-      width: 520px;
+      width: 530px;
       height: 240px;
       background: #fff;
-      margin: 10px 15px;
+      margin: 10px;
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
